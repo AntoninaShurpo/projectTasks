@@ -1,8 +1,8 @@
 package com.strings;
 
 public class FirstUniqueCharacter {
-    static final int NO_OF_CHARS = 256;
-    static char[] count = new char[NO_OF_CHARS];
+    //static final int NoOfChars = 256;
+    static char[] count = new char[50];
 
     public static void main(String[] args) {
         String str = "geeksforgeeks";

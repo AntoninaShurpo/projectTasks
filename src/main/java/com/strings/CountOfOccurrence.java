@@ -1,16 +1,17 @@
 package com.strings;
 
 public class CountOfOccurrence {
+    static final int  maxChar= 256;
+    static int count[] = new int[maxChar];
+
     public static void main(String[] args) {
-        String str = "aaaabbbc";
+        String str = "aabbbcdde";
         System.out.println("Given string is: " + str);
- //       Scanner sc = new Scanner(System.in);
         getOccurringChar(str);
     }
 
     public static void getOccurringChar(String str) {
-        final int MAX_CHAR = 256;
-        int count[] = new int[MAX_CHAR];
+
         int len = str.length();
 
         for (int i = 0; i < len; i++) {

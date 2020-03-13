@@ -2,7 +2,7 @@ package com.arrays;
 
 import java.util.Arrays;
 
-public class moveZeroes {
+public class MoveZeroes {
     public static void main(String[] args) {
         int[] nums = {0, 1, 0, 3, 12};
         System.out.println("Given array: " + "\n" + Arrays.toString(nums));
